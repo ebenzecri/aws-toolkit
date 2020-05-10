@@ -8,3 +8,11 @@ Clean an EC2 instance before create a new AMI
 Run this script as root:
 
 bash <(curl -s https://github.com/ebenzecri/aws-toolkit/raw/master/cleanmyami.sh)
+
+### What this script does?
+
+* Delete files or directories you specify
+* Delete SSH keys from all users
+* Clean cached packages
+* Clean logs
+* Clean bash history for all users
