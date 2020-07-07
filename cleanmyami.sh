@@ -54,7 +54,6 @@ clean_bash_history() {
     print_section "Bash history"
 
     print_subsection_item "Cleaning bash history of root..."
-    set +o history 
     history -c
     history_file="/root/.bash_history"
     if [ -f $history_file ]; then
