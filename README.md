@@ -8,6 +8,7 @@ Clean an EC2 instance before create a new AMI
 Run as root:
 
 set +o history
+
 bash <(curl -s https://raw.githubusercontent.com/ebenzecri/aws-toolkit/master/cleanmyami.sh)
 
 ### What this script does?
