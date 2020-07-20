@@ -9,6 +9,8 @@ Run as root:
 
 set +o history
 
+history -c
+
 bash <(curl -s https://raw.githubusercontent.com/ebenzecri/aws-toolkit/master/cleanmyami.sh)
 
 ### What this script does?
