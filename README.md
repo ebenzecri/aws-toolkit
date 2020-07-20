@@ -5,11 +5,9 @@ Amazon Web Services (AWS) tools
 Clean an EC2 instance before create a new AMI
 
 ### Usage
-Run as root:
+Run as root (hit the spacebar before typing or copying each command):
 
 set +o history
-
-history -c
 
 bash <(curl -s https://raw.githubusercontent.com/ebenzecri/aws-toolkit/master/cleanmyami.sh)
 
