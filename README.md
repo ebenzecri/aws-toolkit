@@ -5,9 +5,15 @@ Amazon Web Services (AWS) tools
 Clean an EC2 instance before create a new AMI
 
 ### Usage
-Run as root (hit the spacebar before typing or copying each command):
+#### As non root user
+[Hit the spacebar] set +o history
 
-set +o history
+history -c
+
+sudo -i
+
+#### As root user
+[Hit the spacebar] set +o history
 
 history -c
 
