@@ -6,14 +6,14 @@ Clean an EC2 instance before create a new AMI
 
 ### Usage
 #### As non root user
-[Hit the spacebar] set +o history
+set +o history
 
 history -c
 
 sudo -i
 
 #### As root user
-[Hit the spacebar] set +o history
+set +o history
 
 history -c
 
